@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-function SelectedContact({ selectedContactId, setSelectedContactId }) {
+export default function SelectedContact({
+  selectedContactId,
+  setSelectedContactId,
+}) {
   const [contact, setContact] = useState(null);
 
   useEffect(() => {
